@@ -55,6 +55,9 @@ grub_cmdline_path1: /boot/grub/grub.conf
 
 # Default path to the Grub2 default config file
 grub_cmdline_path2: /etc/default/grub
+
+# Package required for FIPS mode
+grub_cmdline_fips_package: dracut-fips
 ```
 
 All changes are always applied to all configured kernels.
